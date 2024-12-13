@@ -7,7 +7,7 @@ public class swaparithmoperator {
         System.out.println("Enter num2: ");
         int num2 = sc.nextInt();
 
-        num1 = (num1+num2)-(num2=num1);
+        num1 = (num1+num2)-(num2-num1);
         System.out.println("Value of num1 is: "+num1+" Value of num2 is: "+ num2);
         sc.close();
     }
