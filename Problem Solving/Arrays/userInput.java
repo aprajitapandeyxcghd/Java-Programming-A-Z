@@ -15,7 +15,7 @@ public class userInput{
 
     System.out.println("You entered the following array: ");
     for(int num : array ){
-      System.out.println(num + " ");
+      System.out.print(num + " ");
     }
   }
 }
