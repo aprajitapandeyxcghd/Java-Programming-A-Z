@@ -8,7 +8,7 @@ public class userInput{
     int[] array = new int[size];
 
     System.out.println("Enter" + size + "elements");
-    for(int i=0; i<=size; i++){
+    for(int i=0; i< size; i++){
       System.out.print("Element" + (i+1) + " : ");
       array[i] = sc.nextInt();
     }
