@@ -30,7 +30,7 @@ public class basicSub{
     int index2 = sc.nextInt();
 
     if(index1 >= 0 && index1 < size1 && index2 >= 0 && index2 < size2){
-      int sub = array1[index1] + array2[index2];
+      int sub = array1[index1] - array2[index2];
       System.out.println("Difference : " + sub);
     }
     else{
